@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Блок-планер</string>
+    <string name="logo">Стартовое меню</string>
+    <string name="notes_greeting">Вкладка Заметок</string>
+    <string name="tasks_greeting">Вкладка Планирования</string>
+    <string name="timer_greeting">Вкладка Таймера</string>
+    <string name="notes_title">Заметки</string>
+    <string name="tasks_title">Планер</string>
+    <string name="timer_title">Таймер</string>
+</resources>

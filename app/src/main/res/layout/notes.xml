@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notes_greeting"
+        android:textColor="@color/textColor"
+        android:fontFamily="@font/adamina"
+        android:layout_marginTop="100sp"
+        android:layout_marginHorizontal="50sp"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/notes_tab_btn"
+        android:layout_width="124sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="600sp"
+        android:backgroundTint="@color/buttonColor"
+        android:text="@string/notes_title"
+        android:textColor="@color/textColor" />
+
+    <Button
+        android:id="@+id/tasks_tab_btn"
+        android:layout_width="124sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="600sp"
+        android:layout_marginStart="144sp"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/textColor"
+        android:text="@string/tasks_title" />
+
+    <Button
+        android:id="@+id/timer_tab_btn"
+        android:layout_width="124sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="600sp"
+        android:layout_marginStart="278sp"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/textColor"
+        android:text="@string/timer_title" />
+</RelativeLayout>
