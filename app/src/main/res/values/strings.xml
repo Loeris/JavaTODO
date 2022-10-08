@@ -7,4 +7,6 @@
     <string name="notes_title">Заметки</string>
     <string name="tasks_title">Планер</string>
     <string name="timer_title">Таймер</string>
+    <string name="notes_hint">Введите текст</string>
+
 </resources>
