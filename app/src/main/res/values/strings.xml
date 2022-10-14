@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ToDoTest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="title_notes">Notes</string>
+    <string name="title_account">Account</string>
+    <string name="title_timer">Timer</string>
+    <string name="title_tasks">Tasks</string>
+
+
+
+    <string name="str_notes">Hello, its Notes</string>
+    <string name="str_account">Hello, its Account</string>
+    <string name="str_timer">Hello, its Timer</string>
+    <string name="str_tasks">Hello, its Tasks</string>
+</resources>
