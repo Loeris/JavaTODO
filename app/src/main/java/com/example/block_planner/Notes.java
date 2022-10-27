@@ -4,9 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.block_planner.tasks.TasksMenu;
 
 public class Notes extends AppCompatActivity {
     private Button notes_tab_btn;
@@ -32,7 +33,7 @@ public class Notes extends AppCompatActivity {
         tasks_tab_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Notes.this, Tasks.class);
+                Intent intent = new Intent(Notes.this, TasksMenu.class);
                 startActivity(intent);
             }
         });

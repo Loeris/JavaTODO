@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Notes"/>
-        <activity android:name=".Tasks"/>
+        <activity android:name=".tasks.TasksMenu"/>
         <activity android:name=".Timer"/>
 
         <meta-data

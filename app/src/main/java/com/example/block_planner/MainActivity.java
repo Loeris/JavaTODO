@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.block_planner.tasks.TasksMenu;
+
 public class MainActivity extends AppCompatActivity {
 
     private TextView result_info;
@@ -35,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         tasks_tab_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Tasks.class);
+                Intent intent = new Intent(MainActivity.this, TasksMenu.class);
                 startActivity(intent);
             }
         });

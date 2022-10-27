@@ -8,5 +8,11 @@
     <string name="tasks_title">Планер</string>
     <string name="timer_title">Таймер</string>
     <string name="notes_hint">Введите текст</string>
+    <string name="add_task">Введите текст заметки</string>
+    <string name="save">Сохранить</string>
+    <string name="completed">Завершено</string>
+    <string name="task_details_title">Заметка</string>
+
+
 
 </resources>

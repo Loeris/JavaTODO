@@ -7,6 +7,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.block_planner.tasks.TasksMenu;
+
 public class Timer extends AppCompatActivity {
     private Button notes_tab_btn;
     private Button tasks_tab_btn;
@@ -31,7 +33,7 @@ public class Timer extends AppCompatActivity {
         tasks_tab_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Timer.this, Tasks.class);
+                Intent intent = new Intent(Timer.this, TasksMenu.class);
                 startActivity(intent);
             }
         });
