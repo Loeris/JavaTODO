@@ -11,16 +11,22 @@
         android:theme="@style/Theme.BlockPlanner">
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Notes"/>
-        <activity android:name=".tasks.TasksMenu"/>
+        <activity android:name=".Notes"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".tasks.TasksMenu"
+            android:theme="@style/Theme.Design.NoActionBar"/>
         <activity android:name=".Timer"/>
+
+        <activity android:name=".tasks.TasksDetailsActivity"
+            android:theme="@style/Theme.Design.NoActionBar"/>
 
         <meta-data
             android:name="preloaded_fonts"
