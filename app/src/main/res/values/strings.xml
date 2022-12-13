@@ -1,18 +1,9 @@
 <resources>
-    <string name="app_name">Блок-планер</string>
-    <string name="logo">Стартовое меню</string>
-    <string name="notes_greeting">Вкладка Заметок</string>
-    <string name="tasks_greeting">Вкладка Планера</string>
-    <string name="timer_greeting">Вкладка Таймера</string>
-    <string name="notes_title">Заметки</string>
-    <string name="tasks_title">Планер</string>
-    <string name="timer_title">Таймер</string>
-    <string name="notes_hint">Введите текст</string>
-    <string name="add_task">Введите текст заметки</string>
+    <string name="app_name">todolist</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="note_text">Введите текст заметки</string>
+    <string name="note_details_title">Заметка</string>
     <string name="save">Сохранить</string>
-    <string name="completed">Завершено</string>
-    <string name="task_details_title">Заметка</string>
-
-
-
+    <string name="completed">Выполнение</string>
 </resources>
