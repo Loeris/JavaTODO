@@ -63,23 +63,23 @@ public class NoteDetailsActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                finish();
-                break;
-            case R.id.action_save:
-                if (editText.getText().length() > 0) {
-                    note.text = editText.getText().toString();
-                    note.done = false;
-                    note.timestamp = System.currentTimeMillis();
-                    if (getIntent().hasExtra(EXTRA_NOTE)) {
-                        App.getInstance().getNoteDao().update(note);
-                    } else {
-                        App.getInstance().getNoteDao().insert(note);
-                    }
-                    finish();
+        if (item.getItemId() == android.R.id.home) {
+            finish();
+            break;
+        }
+        if (item.getItemId() == R.id.action_save){
+            if (editText.getText().length() > 0) {
+                note.text = editText.getText().toString();
+                note.done = false;
+                note.timestamp = System.currentTimeMillis();
+                if (getIntent().hasExtra(EXTRA_NOTE)) {
+                    App.getInstance().getNoteDao().update(note);
+                } else {
+                    App.getInstance().getNoteDao().insert(note);
                 }
-                break;
+                finish();
+            }
+            break;
         }
         return super.onOptionsItemSelected(item);
     }
